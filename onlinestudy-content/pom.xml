@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.onlinestudy</groupId>
+        <artifactId>onlinestudy-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../onlinestudy-parent</relativePath>
+    </parent>
+    <packaging>pom</packaging>
+
+    <groupId>com.onlinestudy</groupId>
+    <artifactId>onlinestudy-content</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>onlinestudy-content</name>
+    <description>onlinestudy-content</description>
+
+    <modules>
+        <module>onlinestudy-content-api</module>
+        <module>onlinestudy-content-model</module>
+        <module>onlinestudy-content-service</module>
+    </modules>
+
+</project>
